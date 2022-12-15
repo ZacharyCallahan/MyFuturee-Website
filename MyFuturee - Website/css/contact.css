@@ -1,0 +1,56 @@
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 27vw;
+    
+}
+.icons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition-duration: 0.5s;
+
+}
+.icons button:hover {
+    transform: scale(1.2) rotate(1deg);
+    transition:  0.5s;
+}
+.fa-brands, .fa-regular {
+    font-size: 5rem;
+}
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .icons {
+        padding: 2vw 10vw;
+    }
+    .fa-brands, .fa-regular {
+        font-size: 2rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .icons {
+        padding: 2vw 5vw;
+    }
+    .fa-brands, .fa-regular {
+        font-size: 5rem;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .icons {
+        padding: 2vw 5vw;
+    }
+    .fa-brands, .fa-regular {
+        font-size: 5rem;
+    }
+    
+}
+
+
