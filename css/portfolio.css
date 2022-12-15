@@ -1,0 +1,92 @@
+.cards div {
+    padding: 3vw;
+}
+
+.cards p {
+    font-size: 1.25rem;
+    color: white;
+}
+
+.cards h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(25deg, rgb(79, 250, 230)0%, rgba(6, 54, 102, 1)   100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cards img {
+    padding: 1vw;
+    width: 33vw;
+    border-radius: 3rem;
+}
+.cards img, .cards h1 {
+    transition: 0.5s;
+}
+.cards img:hover, .cards h1:hover {
+    transform: scale(1.025) rotate(1deg);
+    transition: 0.5s;
+}
+.prisonevolved,
+.learnspigot,
+.zombiearena {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #414141;
+}
+
+.prisonevolved,
+.zombiearena {
+    background-color: #181818;
+}
+.zombiearena a {
+    color: rgba(255, 255, 255, 1);
+
+}
+.zombiearena a:hover {
+    color: rgb(79, 250, 230);
+}
+.learnspigot,
+footer {
+    background-color: #121212;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .cards img {
+        width: 90vw;
+        border-radius: 1rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .cards img {
+        width: 90vw;
+        border-radius: 3rem;
+    }
+    .cards p {
+        font-size: 2rem;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .cards img {
+        width: 44vw;
+        border-radius: 3rem;
+    }
+    .cards p {
+        font-size: 1rem;
+    }
+
+
+    
+}
+
+
+
