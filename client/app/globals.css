@@ -17,17 +17,19 @@
     -webkit-text-fill-color: transparent;
 }
 
+/* width */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 7px;
+    background: #121212;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.247);
+    background: #484848;
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.521);
+    background: #2d2d2d;
 }
