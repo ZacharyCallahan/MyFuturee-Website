@@ -13,6 +13,7 @@
         rgb(79, 250, 230) 25%,
         rgba(6, 54, 102, 1) 100%
     );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
