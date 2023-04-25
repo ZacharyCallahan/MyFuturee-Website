@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
       <main className="bg-future-dark h-screen">
-          <div class="h-full flex flex-col items-center justify-center text-center text w-5/6 m-auto gap-12">
+          <div class="h-full flex flex-col items-center justify-center text-center text w-5/6 m-auto gap-6">
               <h1 className="text-gradient text-3xl sm:text-5xl md:text-7xl font-bold">
                   Welcome!
               </h1>
