@@ -4,7 +4,7 @@ const page = () => {
     const isSmallScreen = useMediaQuery("(min-width: 640px)");
     return (
         <main className="bg-future-dark pb-24">
-            <div className="h-screen flex flex-col items-center justify-center text-center text w-5/6 m-auto gap-12">
+            <div className="h-screen flex flex-col items-center justify-center text-center text w-5/6 m-auto gap-5">
                 <h1 className="text-gradient text-3xl sm:text-5xl md:text-7xl font-bold">
                     Contact Me
                 </h1>
