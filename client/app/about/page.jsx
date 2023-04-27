@@ -1,7 +1,7 @@
 const page = () => {
     return (
         <main className="bg-future-dark py-24 ">
-            <div className="h-full xl:h-screen flex flex-col items-center justify-center text-center text w-5/6 m-auto gap-12 ">
+            <div className="h-full xl:h-screen flex flex-col items-center justify-center text-center text w-5/6 m-auto gap-5 ">
                 <h1 className="text-gradient text-3xl sm:text-5xl md:text-7xl font-bold">
                     About Me
                 </h1>
