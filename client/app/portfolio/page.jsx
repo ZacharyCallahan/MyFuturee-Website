@@ -29,7 +29,7 @@ const page = () => {
                         height={1000}
                         className="rounded-md "
                     />
-                    <p className="text-white text-lg sm:text-xl md:text-2xl xl:text-4xl">
+                    <p className="text-white text-lg sm:text-xl md:text-2xl ">
                         PrisonEvolved was my first big project. We created this
                         over six years with my best friend. We went through many
                         versions of this server. It took thousands of hours of
